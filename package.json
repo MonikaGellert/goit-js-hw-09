@@ -18,7 +18,13 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "flatpickr": "^4.6.13",
+    "from": "^0.1.7",
+    "import": "^0.0.6",
+    "lodash": "^4.17.21",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "Notiflix": "npm:notiflix@^3.2.6"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

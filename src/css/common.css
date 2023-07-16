@@ -16,3 +16,93 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+  width: 500px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  border: 2px solid #212121;
+  border-radius: 8px;
+
+  background-color: yellowgreen;
+  color: white;
+  font-size: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.time-wrapper button[data-start] {
+  background-color: blueviolet;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.8);
+}
+
+.time-wrapper button[data-start]:hover {
+  color: green;
+}
+.time-wrapper button[data-start]:active {
+  box-shadow: 6px 6px 14px -2px rgba(247, 243, 243, 0.77) inset;
+  font-weight: 700;
+  color: violet;
+}
+
+.time-wrapper button:disabled {
+  background-color: #95b9c7;
+  color: gray;
+}
+
+.time-wrapper button:disabled:hover {
+  color: gray;
+}
+
+.time-wrapper button[data-reset] {
+  background-color: green;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+
+.time-wrapper button[data-reset]:hover {
+  background-color: blue;
+  color: yellow;
+}
+.time-wrapper button[data-reset]:active {
+  box-shadow: 6px 6px 14px -2px rgba(247, 243, 243, 0.77) inset;
+}
+.time-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#datetime-picker {
+  padding: 12px;
+  border-radius: 4px;
+  color: white;
+  background-color: #3f4458;
+}
+
+.cdt-body {
+  background-color: #456977;
+}
+
+.form label > input {
+  width: 100px;
+}
