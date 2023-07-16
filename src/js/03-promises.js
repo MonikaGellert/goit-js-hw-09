@@ -1,4 +1,4 @@
-import Notiflix from 'notiflix';
+import Notiflix from 'Notiflix';
 
 function createPromise(position, delay) {
   const shouldResolve = Math.random() > 0.3;
